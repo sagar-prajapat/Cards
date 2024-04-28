@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(117, 76, 155);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card{
+            width: 800px;
+            height: 400px;
+            border: 1px solid black;
+            display: flex;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+            
+        }
+
+        .leftbox {
+            width: 400px;
+            height: 398px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+            gap: 25px;
+        }
+
+        .heading h2{
+            font-size: 2rem;
+            color: white;
+        }
+
+        .rightbox img{
+            width: 400px;
+            height: 398px;
+            border-top-right-radius: 20px;
+            border-bottom-right-radius: 20px;
+        }
+
+        .para1{
+            color: white;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .para{
+            color: white;
+        }
+
+        #font{
+            font-size: 12px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="card">
+
+            <div class="leftbox">
+                
+                <div class="heading">
+                    <h2>Get insights that help your business grow</h2>
+                </div>
+
+                <div class="para">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque velit tempore voluptate porro facere officia maxime, nisi laudantium aliquam. Sed!</p>
+                </div>
+
+                <div class="para1">
+                    <div>
+                        <p><b>10K+</b><br><span id="font">Comments</span></p>
+                    </div>
+
+                    <div>
+                        <p><b>214</b><br><span id="font">Paid users</span></p>
+                    </div>
+
+                    <div>
+                        <p><b>12M+</b><br><span id="font">Views</span></p>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="rightbox">
+                <img src="./secuity.png">
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
